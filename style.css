@@ -1,9 +1,10 @@
 .principal{
 
-    display:flex;
+    display:block;
 }
 
-#Logo_CookingDiary{
+#Foto-Principal{
+ border: 3px solid black;
 
-    
+
 }

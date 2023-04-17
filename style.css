@@ -1,14 +1,9 @@
-li{
-    display:inline;
+.principal{
+
+    display:flex;
 }
 
-.Menu{
+#Logo_CookingDiary{
 
-    list-style:armenian;
-
-}
-
-body{
-
-    background-color:bisque;
+    
 }

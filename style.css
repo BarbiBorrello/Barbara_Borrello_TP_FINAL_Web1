@@ -1,4 +1,4 @@
-body {
+body { /* color de fondo - tipo y color de letra*/
 
     background-color: black;
     font-family: Calibri;
@@ -10,13 +10,16 @@ body {
 
 /* Encabezado: solo contiene el logo*/
 
-.contenedor .Logo {
-    /* contendor de la imagen logo*/
+.contenedor .Logo { /* contendor de la imagen logo*/
+
     display: flex;
+
     flex-direction: row;
     /*El valor row apila los elementos flexibles horizontalmente (de izquierda a derecha):*/
+
     justify-content: center;
     /* alinea los elementos flexibles en el centro del contenedor*/
+
     border: 1px solid black;
     margin: 20px;
     padding: 20px;
@@ -40,7 +43,7 @@ body {
     text-shadow: 8px 8px 10px black;
 }
 
-.contenedor .menu-contacto {}
+.contenedor .menu-contacto {} /**/
 
 ul {
     list-style-type: none;
@@ -50,7 +53,7 @@ ul {
     background-color: #0000CC;
     border-radius: 12px;
     font-size: large;
-    font-family: Calibri;
+   
 }
 
 li {
@@ -63,11 +66,13 @@ li a,
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-weight: bold;
-    /* negrita*/
+
+    font-weight: bold; /* negrita*/
+
     font-size: x-large;
-    /* offset-x | offset-y | blur-radius | color */
-    text-shadow: 8px 8px 10px black;
+  
+    text-shadow: 8px 8px 10px black; /* TEXTO SOMBREADO */
+     /* offset-x | offset-y | blur-radius | color */
 }
 
 li a:hover,
@@ -84,7 +89,7 @@ li.dropdown {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* */
     z-index: 1;
 }
 
@@ -108,7 +113,7 @@ li.dropdown {
 
 /* ARTICULO 1 : VIDEO*/
 
-#video {
+#video { /* CENTRAR ELEMENTOS*/
     display: flex;
     justify-content: center;
     align-items: center;

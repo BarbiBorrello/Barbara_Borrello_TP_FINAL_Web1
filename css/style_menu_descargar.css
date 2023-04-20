@@ -1,0 +1,38 @@
+body{
+
+    background-color: black;
+    font-family: Calibri;
+    color:white;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 80px;
+}
+
+.contenedor-descarga img {
+    width: 250px;
+    padding-left: 80px;
+
+}
+
+.pie-de-pagina {
+    border: solid 4px white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-image: radial-gradient(circle, white, white, blue);
+    border: 6px outset #0033FF;
+    border-radius: 12px;
+    height: 100px;
+    color: black;
+    padding: auto;
+}
+
+
+#logos-pie-de-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

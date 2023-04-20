@@ -40,7 +40,11 @@ body {
     text-shadow: 8px 8px 10px black;
 }
 
+.contenedor .menu-contacto{
 
+
+    
+}
 
 ul {
     list-style-type: none;
@@ -108,7 +112,11 @@ li.dropdown {
 
 /* ARTICULO 1 : VIDEO*/
 
-
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

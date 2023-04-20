@@ -143,20 +143,20 @@ li.dropdown {
 .contenedor .pie-de-pagina {
     border: solid 4px white;
     text-align: center;
-    font-weight:bold;
-    font-size: 30px ;
+    font-weight: bold;
+    font-size: 30px;
     background-image: radial-gradient(circle, white, white, blue);
     border: 6px outset #0033FF;
     border-radius: 12px;
     height: 100px;
     color: black;
-    padding: auto;  
+    padding: auto;
 }
 
 
-.contenedor .pie-de-pagina #logos-pie-de-pagina{
-  display: flex;
-  justify-content:center;
-  align-items: center;
+.contenedor .pie-de-pagina #logos-pie-de-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }

@@ -2,9 +2,10 @@ body {
 
     background-color: black;
     font-family: Calibri;
-    color:white;
+    color: white;
 
 }
+
 /*--------------------------------------------------------------------------------------------------------------*/
 
 /* Encabezado: solo contiene el logo*/
@@ -29,6 +30,18 @@ body {
 
 /* menu*/
 
+/* estilo menu*/
+.contenedor .menu {
+
+    font-weight: bold;
+    /* negrita*/
+    font-size: x-large;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 8px 8px 10px black;
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,7 +63,11 @@ li a,
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    font-weight: bold;
+    /* negrita*/
+    font-size: x-large;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 8px 8px 10px black;
 }
 
 li a:hover,
@@ -104,13 +121,13 @@ li.dropdown {
 /*-------------------------------------------------------------------------------------------------------------------
 /* pagina de DESCARGA*/
 
-.titulos{
+.titulos {
     text-align: center;
     font-size: 80px;
 }
 
-.contenedor-descarga img{
+.contenedor-descarga img {
     width: 250px;
-    padding-left:80px;
-    
+    padding-left: 80px;
+
 }

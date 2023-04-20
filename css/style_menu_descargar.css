@@ -16,7 +16,8 @@ body{
 
 }
 
-.pie-de-pagina {
+.redes-sociales {
+    margin-top: 100px;
     border: solid 4px white;
     text-align: center;
     font-weight: bold;
@@ -30,9 +31,10 @@ body{
 }
 
 
-#logos-pie-de-pagina {
+.redes-sociales #logos-redes-sociales {
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }

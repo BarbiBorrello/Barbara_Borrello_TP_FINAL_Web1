@@ -145,7 +145,7 @@ li.dropdown {
 
 /* PIE DE PAGINA*/
 
-.contenedor .pie-de-pagina {
+.contenedor .redes-sociales {
     border: solid 4px white;
     text-align: center;
     font-weight: bold;
@@ -159,7 +159,7 @@ li.dropdown {
 }
 
 
-.contenedor .pie-de-pagina #logos-pie-de-pagina {
+.contenedor .redes-sociales #logos-redes-sociales {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -174,5 +174,34 @@ li.dropdown {
     width: 50px;
 }
 
-/*Redes sociales _ PAGINA DESCARGA*/
+/*-------------------------------------------------------------------------------------------------*/
 
+/* Pagina de CONTACTO*/
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: black;
+
+}
+
+.contenedor-contacto {
+    position: relative;
+}
+
+.img-contacto {
+    border-radius: 100%;
+}
+
+.tit-contacto {
+    position: absolute;
+    bottom: 200px;
+    left: 350px;
+    font-family: Calibri;
+    font-size: 60px;
+    color: blue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+}

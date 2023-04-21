@@ -130,7 +130,7 @@ li.dropdown {
 /*-------------------------------------------------------------------------------------------------------------------
 /* pagina de DESCARGA*/
 
-/*.titulos {
+.titulos {
     text-align: center;
     font-size: 80px;
 }
@@ -143,9 +143,12 @@ li.dropdown {
 
 /*---------------------------------------------------------------------------------------------------------*/
 
-/* PIE DE PAGINA*/
+/* Redes sociales _ PAGINA PRINCIPAL*/
 
 .contenedor .redes-sociales {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     border: solid 4px white;
     text-align: center;
     font-weight: bold;
@@ -156,12 +159,17 @@ li.dropdown {
     height: 100px;
     color: black;
     padding: auto;
+    margin-top: 200px; /* verificar al final del proyecto*/
 }
 
 
-.contenedor .redes-sociales #logos-redes-sociales {
+.redes-sociales #logos-redes-sociales {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-left: 50px ;
 }
+
+
+/*Redes sociales _ PAGINA DESCARGA*/
+

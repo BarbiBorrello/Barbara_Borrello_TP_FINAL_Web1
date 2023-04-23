@@ -216,6 +216,7 @@ li.dropdown {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------*/
 /* FORMULARIO*/
 
 input[type=text],
@@ -227,6 +228,9 @@ select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+ 
+   
+   
 }
 
 input[type=submit] {
@@ -241,6 +245,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+   
     background-color: #45a049;
 }
 
@@ -253,18 +258,24 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
-    resize: none; 
+    resize: none;
 }
 
 .contacto .formulario {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;/* ancho del formulario*/
+
+
+    /* ancho del formulario*/
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    border: 8px solid fuchsia;
+   
+}
 
+.contenedor-formulario{
+
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
 
 }

@@ -133,8 +133,7 @@ li.dropdown {
 /**/
 
 /* Redes sociales PARA TODAS LAS PAGINAS!! */
-
-.contenedor .redes-sociales {
+.redes-sociales {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,3 +291,24 @@ textarea {
 
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
 
+/* clase HOME: vuelve a la pagina de inicio en todas las paginas del menu*/
+.home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid blue;
+    border-radius: 8px;
+    margin-top: 50px;
+    /*   width: 500px;*/
+
+
+}
+
+.home .icono-home {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50px;
+
+    border-radius: 20px;
+}

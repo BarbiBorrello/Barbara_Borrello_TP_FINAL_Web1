@@ -305,10 +305,13 @@ textarea {
 
 }
 
-.home .icono-home {
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 50px;
+.icono-home{
+    width: 80px;
+    border-radius: 50px;
+}
 
-    border-radius: 20px;
+.home a{
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }

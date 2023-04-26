@@ -44,7 +44,11 @@ body {
     font-size: x-large;
     /* offset-x | offset-y | blur-radius | color */
     text-shadow: 8px 8px 10px black;
+    border: 6px outset #0033FF;
+    
 }
+
+
 
 /*menu*/
 
@@ -56,6 +60,7 @@ ul {
     background-color: #0000CC;
     border-radius: 12px;
     font-size: large;
+
 
 }
 
@@ -115,16 +120,49 @@ li.dropdown {
     display: block;
 }
 
+.dropbtn{
+    border: 6px outset #0033FF;
+}
+
 /**/
 /*ARTICULOS*/
 
 /* ARTICULO 1 : VIDEO*/
+
+.contenedor p{
+
+    font-size: 20px;
+    border-bottom: 3px solid #CFD8DC;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.contenedor iframe{
+
+    border: 20px solid #3333FF  ;
+    border-style:ridge;
+    border-radius: 10px;   
+
+}
 
 #video {
     /* CENTRAR ELEMENTOS*/
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.articulo-1{
+    border-top: #0033FF;
+}
+
+
+.img-articulo{
+    width: 400px;
+    border: 10px double #E0E0E0;
+    margin-left: 20px;
 }
 
 /*ARTICULO EN 3 COLUMNAS*/
@@ -316,4 +354,8 @@ textarea {
     font-size: x-large;
     margin-left: 20px;
     margin-right: 30px;
+}
+
+.footer{
+
 }

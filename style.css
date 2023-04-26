@@ -149,10 +149,19 @@ li.dropdown {
 
 }
 
-.articulo-1 {
-    border-top: #0033FF;
+/*ARTICULO EN 3 COLUMNAS*/
+.columna{
+    column-count: 3;
+    column-gap: 40px; /*espacios entre columnas*/
+    column-rule-style: solid; /*lineas entre las columnas*/
+    column-rule-width: 2px; /*especifica el ancho de la regla entre columnas*/
+    column-rule-color: lightblue; /*especifica el color de la regla entre columnas*/
+    column-rule: 3px solid lightblue; /*estilo de la regla*/
+    column-span:all; /*especifica cuántas columnas debe abarcar un elemento*/
+    column-width: 100px; /*especifica un ancho óptimo sugerido para las columnas.*/
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
-
 
 .img-articulo {
     width: 400px;
@@ -160,7 +169,9 @@ li.dropdown {
     margin-left: 20px;
 }
 
-/*ARTICULO EN 3 COLUMNAS*/
+/*ARTICULO 2*/
+
+
 
 
 /**/

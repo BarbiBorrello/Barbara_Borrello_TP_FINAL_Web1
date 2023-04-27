@@ -227,7 +227,7 @@ li.dropdown {
 
 .articulo-2{
     font-size: 20px;
-    border-bottom: 3px solid #CFD8DC;
+    border-bottom: 3px solid #CFD8DC; /*linea al final del texto*/
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -269,16 +269,32 @@ ul img{
 }
 
 .articulo-3 img{
- margin-top: 30px;
+ margin-top: 40px;
  border-radius: 30px;
  box-shadow: 20px 20px 30px white;
  margin-bottom: 30px;
 
 }
 
+.articulo-3{
+    font-size: 20px;
+ 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
 
+.articulo-3 div{
 
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+ 
+.articulo-3 .pregunta{
 
+    font-size: 50px;
+}
 
 /* Redes sociales PARA TODAS LAS PAGINAS!! */
 .redes-sociales {
@@ -321,8 +337,9 @@ ul img{
 .titulos {
     text-align: center;
     font-size: 40px;
-    text-shadow: black;
+   /* text-shadow: black;*/
     text-decoration: underline;
+    text-shadow: 8px 8px 10px #0033FF ;
 }
 
 .contenedor-descarga img {

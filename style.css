@@ -155,7 +155,7 @@ li.dropdown {
 
 /* ARTICULO 1 : VIDEO*/
 
-.contenedor p {
+.contenedor .columna { /* style texto articulo 1*/
 
     font-size: 20px;
     border-bottom: 3px solid #CFD8DC;
@@ -202,8 +202,33 @@ li.dropdown {
 
 /*ARTICULO 2*/
 
+.articulo-2{
+    font-size: 20px;
+    border-bottom: 3px solid #CFD8DC;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
 
 
+ul{
+    margin-top:30px;
+ 
+    margin-left: 5px;
+}
+
+ul li{
+    margin-top: 10px;
+}
+
+ul span{
+
+    margin-left: 5px;
+}
+ul img{
+    border-radius: 100px;
+}
 
 /**/
 
@@ -396,3 +421,4 @@ textarea {
 }
 
 .footer {}
+

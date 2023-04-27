@@ -278,7 +278,6 @@ ul img{
 
 .articulo-3{
     font-size: 20px;
- 
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -293,7 +292,8 @@ ul img{
  
 .articulo-3 .pregunta{
 
-    font-size: 50px;
+    font-style: italic;
+    
 }
 
 /* Redes sociales PARA TODAS LAS PAGINAS!! */
@@ -335,6 +335,7 @@ ul img{
 /* Encabezado DESCARGA*/
 
 .titulos {
+    margin-top: 30px;
     text-align: center;
     font-size: 40px;
    /* text-shadow: black;*/
@@ -343,6 +344,8 @@ ul img{
 }
 
 .contenedor-descarga img {
+
+    margin-top: 50px;
     width: 150px;
     padding-left: 80px;
 
@@ -485,5 +488,8 @@ textarea {
     margin-right: 30px;
 }
 
-.footer {}
+footer span {
+    color: black;
+    font-weight: bolder;
+}
 

@@ -9,6 +9,13 @@ body {
 
 }
 
+.centrar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /*--------------------------------------------------------------------------------------------------------------*/
 /* PAGINA PRINCIPAL*/
 
@@ -175,8 +182,9 @@ li.dropdown {
 #video {
     /* CENTRAR ELEMENTOS*/
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+   /* align-items: center;*/
 
 }
 
@@ -235,10 +243,10 @@ ul img{
 /* Redes sociales PARA TODAS LAS PAGINAS!! */
 .redes-sociales {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* alineacion del texto*/
     border: solid 4px white;
-    text-align: center;
     font-weight: bold;
     font-size: 30px;
     background-image: radial-gradient(circle, white, white, blue);
@@ -254,8 +262,8 @@ ul img{
 
 .redes-sociales #logos-redes-sociales {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     margin-left: 50px;
 }
 
@@ -295,8 +303,7 @@ ul img{
 /* ENCABEZADO*/
 .contacto {
     display: flex;
-
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
     margin: 10px;
 
@@ -397,8 +404,8 @@ textarea {
 .home {
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     margin-top: 70px;
 }
 
@@ -409,8 +416,9 @@ textarea {
 
 .home a {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; /*alinea el texto*/
 }
 
 .home span {

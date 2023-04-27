@@ -179,23 +179,31 @@ li.dropdown {
 
 }
 
+
 #video {
     /* CENTRAR ELEMENTOS*/
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
    /* align-items: center;*/
 
 }
 
 /*ARTICULO EN 3 COLUMNAS*/
+
+#logo-negro{ /* logo negro al comienzo de la columna*/
+
+    border-radius: 100px;
+}
 .columna{
     column-count: 3;
     column-gap: 40px; /*espacios entre columnas*/
     column-rule-style: solid; /*lineas entre las columnas*/
     column-rule-width: 2px; /*especifica el ancho de la regla entre columnas*/
     column-rule-color: lightblue; /*especifica el color de la regla entre columnas*/
-    column-rule: 3px solid lightblue; /*estilo de la regla*/
+    column-rule: 6px solid lightblue; /*estilo de la regla*/
     column-span:all; /*especifica cuántas columnas debe abarcar un elemento*/
     column-width: 100px; /*especifica un ancho óptimo sugerido para las columnas.*/
     margin-bottom: 40px;
@@ -210,6 +218,13 @@ li.dropdown {
 
 /*ARTICULO 2*/
 
+
+.fotos-articulo-2{
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .articulo-2{
     font-size: 20px;
     border-bottom: 3px solid #CFD8DC;
@@ -222,6 +237,7 @@ li.dropdown {
 
 ul{
     margin-top:30px;
+    margin-bottom: 30px;
  
     margin-left: 5px;
 }
@@ -239,6 +255,30 @@ ul img{
 }
 
 /**/
+
+/*ARTICULO 3*/
+
+.articulo-3{
+
+    margin-top: 30px;
+}
+
+.articulo-3 span{ /*cambio de tamaño del titulo principal para que quede en una sola linea*/
+
+    font-size: 35px;
+}
+
+.articulo-3 img{
+ margin-top: 30px;
+ border-radius: 30px;
+ box-shadow: 20px 20px 30px white;
+ margin-bottom: 30px;
+
+}
+
+
+
+
 
 /* Redes sociales PARA TODAS LAS PAGINAS!! */
 .redes-sociales {

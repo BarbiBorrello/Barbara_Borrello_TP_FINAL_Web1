@@ -493,3 +493,7 @@ footer span {
     font-weight: bolder;
 }
 
+.aside{
+    width: 20%;
+    border: 3px solid white;
+}

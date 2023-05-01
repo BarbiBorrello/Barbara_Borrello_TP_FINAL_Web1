@@ -92,7 +92,7 @@ body {
 
 /*menu*/
 
-ul {
+.lista-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -589,11 +589,34 @@ footer span {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
-/* SUPER DELIVERY*/
+/* ENLACES POTENCIADORES*/
 
 .potenciadores .sp{
 
     width: 100px;
     margin-left: 600px;;
+
+}
+
+/*Pagina: MASCOTAS*/
+
+.galeria{
+    
+    width: 100px;
+    display:inline-block;
+    justify-content:start;
+    align-items: center;
+    /*border: 3px solid black;*/
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.texto-mascotas{
+
+    text-align:center;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
 
 }

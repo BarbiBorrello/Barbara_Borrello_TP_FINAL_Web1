@@ -1,14 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-    <h1> EN CONSTRUCCION</h1>
-    
+    <div>
+        <div class="titulos"> <img class="img-titulo" src="img/Logo_negro.jpg" alt=""> Galeria<img class="img-titulo"
+                src="img/Logo_negro.jpg" alt=""></div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- CONTENEDOR-DIAPO -->
+
+    <div class="slideshow-container">
+
+        <!-- Imágenes de ancho completo con número y texto de subtítulos -->
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/galeria/Ciudad.jpg" style="width:100%">
+            <div class="text"> Tasty Hill</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/galeria/Camion-de-comidas.jpg" style="width:100%">
+            <div class="text">Camion de comidas</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/galeria/Resto1.jpg" style="width:100%">
+            <div class="text"> Nivel 1</div>
+        </div>
+
+        <!-- Botones siguiente y anterior -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+    <!-- Los puntos/círculos -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+        <script src="prueba.js"></script>
+
+   <!--------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="home"> <a class="enlace" href="index.html"><img src="img/Icono_Home.jpg" alt=""> <span>Volver a pagina
+                Principal</span> </a>
+
+
+    </div>
+
+    <div class="redes-sociales"> Síguenos en las redes sociales
+        <div id="logos-redes-sociales">
+            <div> <a href="https://www.facebook.com/CookingDiaryMYTONA" target="_blank"> <img
+                        src="./img/Logo_facebook.jpg"></img> </a> </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div> <a href="https://www.instagram.com/cookingdiary_official/" target="_blank"> <img
+                        src="./img/Logo_instagram.jpg"></img> </a> </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div> <a href="https://twitter.com/cookingdiary" target="_blank"> <img src="./img/Logo_titwer.jpg" alt="">
+                    </img> </a> </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div> <a href="https://www.youtube.com/channel/UC_4hNXHvg5xwDy4qDSsi83w" target="_blank"> <img
+                        src="./img/Logo_youtube.jpg" alt=""> </img> </a> </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p> <span>Autor: Barbara Borrello</span><br>
+            <a href="babiborrello@gmail.com">babiborrello@gmail.com</a>
+        </p>
+    </footer>
+
+
+
+    </div>
+
+
 </body>
+
 </html>

@@ -641,7 +641,7 @@ ol li{
 /*CONTENEDOR-DIAPO   */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
+  position:relative;
   margin: auto;
 }
 
@@ -724,10 +724,4 @@ ol li{
   to {opacity: 1}
 }* {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
 

@@ -172,6 +172,7 @@ li.dropdown {
     border: 20px solid #3333FF;
     border-style: ridge;
     border-radius: 10px;
+     box-shadow: 20px 20px 30px white;
 
 }
 
@@ -211,10 +212,12 @@ li.dropdown {
 /*ARTICULO 2*/
 
 
-.fotos-articulo-2{
+.fotos-articulo-2 img{
 
-    margin-top: 40px;
-    margin-bottom: 20px;
+    display:inline-block;
+    margin-left: 50px;
+    box-shadow: 20px 20px 30px white;
+    
 }
 
 .articulo-2{
@@ -230,9 +233,8 @@ li.dropdown {
 
 .ul-articulo-2{
     margin-top:30px;
-    margin-bottom: 100px;
- 
-    margin-left: 5px;
+    margin-bottom: 30px;
+    /*margin-left: 5px;*/
 }
 
 .ul-articulo-2 .li-articulo-2{
@@ -243,9 +245,9 @@ li.dropdown {
 
     margin-left: 5px;
 }
-.ul-articulo-2 img{
-    border-radius: 100px;
-}
+
+
+
 
 /**/
 
@@ -258,14 +260,18 @@ li.dropdown {
 
 .articulo-3 span{ /*cambio de tamaño del titulo principal para que quede en una sola linea*/
 
-    font-size: 35px;
+    font-size: 40px; 
+
+ 
 }
+   
 
 .articulo-3 img{
  margin-top: 40px;
  border-radius: 30px;
  box-shadow: 20px 20px 30px white;
  margin-bottom: 30px;
+ border: 10px double #E0E0E0;
 
 }
 
@@ -333,16 +339,27 @@ li.dropdown {
    /* text-shadow: black;*/
     text-decoration: underline;
     text-shadow: 8px 8px 10px #0033FF ;
+    margin-bottom: 20px;
+    
     /*border: 10px solid black;*/
+   
 }
 
 .contenedor-descarga img {
 
-    margin-top: 50px;
-    width: 150px;
-    padding-left: 80px;
-
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px white ;
+    /*border: 3px solid fuchsia;*/
+   
 }
+ 
+
+
 
 
 /* ICONO HOME*/
@@ -486,10 +503,24 @@ footer span {
     font-weight: bolder;
 }
 
-/** PAGINA MI PERSONAJE---------------------------------------------------------------------
+/** PAGINA MI PERSONAJE---------------------------------------------------------------------*/
+
+.personaje{
+
+    width: 400px;
+    border-radius: 20px;
+    border: 5px solid fuchsia;
+    box-shadow: 20px 20px 30px white;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
 
 
-/ Prueba : ASIDE
+
+
+/*Prueba : ASIDE
 .aside{
     width: 20%;
     border: 3px solid white;

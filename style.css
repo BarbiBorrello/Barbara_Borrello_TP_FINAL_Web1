@@ -518,15 +518,6 @@ footer span {
 }
 
 
-
-
-/*Prueba : ASIDE
-.aside{
-    width: 20%;
-    border: 3px solid white;
-}*/
-
-
 .titulos-paginas { /* paginas del menu*/
     margin-top: 20px;
     margin-bottom: 20px;
@@ -544,9 +535,10 @@ footer span {
 }
 
 .img-articulo-1 { /* imagenes centradas con bordes redondos*/
-    width: 400px;
+
+    width: 300px;
     border: 10px double #E0E0E0;
-    margin-right: 20px;
+    margin-right: 50px;
     border-radius: 30px;
     margin-bottom: 30px;
     margin-top: 30px;

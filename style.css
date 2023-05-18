@@ -2,15 +2,15 @@ body {
     /* color de fondo - tipo y color de letra*/
 
     background-color: black;
- 
+
     background-image: radial-gradient(circle, blue, black, white);
     font-family: Calibri;
     color: white;
-  
+
 
 }
 
-.centrar{
+.centrar {
 
     display: flex;
     flex-direction: row;
@@ -43,34 +43,49 @@ body {
 }
 
 /* IMAGENES EN MOVIMIENTO*/
-.img-mov{
+.img-mov {
 
     border-radius: 100px;
     border: 3px solid blue;
     height: 100px;
-    position:relative;
+    position: relative;
     animation: mymove 3s infinite;
 }
 
-.img-mov {animation-timing-function:linear;}
+.img-mov {
+    animation-timing-function: linear;
+}
 
 @keyframes mymove {
-    from {left: 0px;}
-    to {left: 50px;}
-  }
+    from {
+        left: 0px;
+    }
 
-.contenedor #logo{
+    to {
+        left: 50px;
+    }
+}
 
-    position:relative;
+.contenedor #logo {
+
+    position: relative;
     animation: mymove2 3s infinite;
 
-}  
+}
 
-.contenedor #logo {animation-timing-function:linear;}
+.contenedor #logo {
+    animation-timing-function: linear;
+}
+
 @keyframes mymove2 {
-    from {left: 0px;}
-    to {left: 50px;}
-  }
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 50px;
+    }
+}
 
 
 /**/
@@ -78,7 +93,8 @@ body {
 /* MENU*/
 
 /* estilo menu*/
-.contenedor .menu { /* letra menu menos GUIA DEL JUEGO*/
+.contenedor .menu {
+    /* letra menu menos GUIA DEL JUEGO*/
 
     font-weight: bold;
     font-size: x-large;
@@ -102,7 +118,8 @@ li {
 }
 
 li a,
-.dropbtn { /* TODOS LOS MENU*/
+.dropbtn {
+    /* TODOS LOS MENU*/
     display: inline-block;
     color: white;
     text-align: center;
@@ -110,7 +127,7 @@ li a,
     font-weight: bold;
     font-size: x-large;
     text-shadow: 8px 8px 10px black;
-  
+
 }
 
 
@@ -126,10 +143,10 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-   
+
     /* */
     z-index: 1;
-  
+
 }
 
 .dropdown-content a {
@@ -138,16 +155,16 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
-  
+
 }
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
-  
+
 }
 
 .dropdown:hover .dropdown-content {
-    display:block;
+    display: block;
     /* menu desplegable en filas*/
 
 }
@@ -158,7 +175,8 @@ li.dropdown {
 
 /* ARTICULO 1 : VIDEO*/
 
-.contenedor .columna { /* style texto articulo 1*/
+.contenedor .columna {
+    /* style texto articulo 1*/
 
     font-size: 20px;
     border-bottom: 3px solid #CFD8DC;
@@ -172,7 +190,7 @@ li.dropdown {
     border: 20px solid #3333FF;
     border-style: ridge;
     border-radius: 10px;
-     box-shadow: 20px 20px 30px white;
+    box-shadow: 20px 20px 30px white;
 
 }
 
@@ -184,25 +202,34 @@ li.dropdown {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
-   /* align-items: center;*/
+    /* align-items: center;*/
 
 }
 
 /*ARTICULO EN 3 COLUMNAS*/
 
-#logo-negro{ /* logo negro al comienzo de la columna*/
+#logo-negro {
+    /* logo negro al comienzo de la columna*/
 
     border-radius: 100px;
 }
-.columna{
+
+.columna {
     column-count: 3;
-    column-gap: 40px; /*espacios entre columnas*/
-    column-rule-style: solid; /*lineas entre las columnas*/
-    column-rule-width: 2px; /*especifica el ancho de la regla entre columnas*/
-    column-rule-color: lightblue; /*especifica el color de la regla entre columnas*/
-    column-rule: 6px solid lightblue; /*estilo de la regla*/
-    column-span:all; /*especifica cuántas columnas debe abarcar un elemento*/
-    column-width: 100px; /*especifica un ancho óptimo sugerido para las columnas.*/
+    column-gap: 40px;
+    /*espacios entre columnas*/
+    column-rule-style: solid;
+    /*lineas entre las columnas*/
+    column-rule-width: 2px;
+    /*especifica el ancho de la regla entre columnas*/
+    column-rule-color: lightblue;
+    /*especifica el color de la regla entre columnas*/
+    column-rule: 6px solid lightblue;
+    /*estilo de la regla*/
+    column-span: all;
+    /*especifica cuántas columnas debe abarcar un elemento*/
+    column-width: 100px;
+    /*especifica un ancho óptimo sugerido para las columnas.*/
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -212,15 +239,15 @@ li.dropdown {
 /*ARTICULO 2*/
 
 
-.fotos-articulo-2 img{
+.fotos-articulo-2 img {
 
-    display:inline-block;
+    display: inline-block;
     margin-left: 50px;
     box-shadow: 20px 20px 30px white;
-    
+
 }
 
-.articulo-2{
+.articulo-2 {
     font-size: 20px;
     /*border-bottom: 3px solid #CFD8DC; /*linea al final del texto*/
     margin-top: 20px;
@@ -231,17 +258,17 @@ li.dropdown {
 }
 
 
-.ul-articulo-2{
-    margin-top:30px;
+.ul-articulo-2 {
+    margin-top: 30px;
     margin-bottom: 30px;
     /*margin-left: 5px;*/
 }
 
-.ul-articulo-2 .li-articulo-2{
+.ul-articulo-2 .li-articulo-2 {
     margin-top: 10px;
 }
 
-.ul-articulo-2 span{
+.ul-articulo-2 span {
 
     margin-left: 5px;
 }
@@ -253,29 +280,30 @@ li.dropdown {
 
 /*ARTICULO 3*/
 
-.articulo-3{
+.articulo-3 {
 
     margin-top: 30px;
 }
 
-.articulo-3 span{ /*cambio de tamaño del titulo principal para que quede en una sola linea*/
+.articulo-3 span {
+    /*cambio de tamaño del titulo principal para que quede en una sola linea*/
 
-    font-size: 40px; 
+    font-size: 40px;
 
- 
-}
-   
-
-.articulo-3 img{
- margin-top: 40px;
- border-radius: 30px;
- box-shadow: 20px 20px 30px white;
- margin-bottom: 30px;
- border: 10px double #E0E0E0;
 
 }
 
-.articulo-3{
+
+.articulo-3 img {
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px white;
+    margin-bottom: 30px;
+    border: 10px double #E0E0E0;
+
+}
+
+.articulo-3 {
     font-size: 20px;
     margin-top: 20px;
     margin-left: 20px;
@@ -283,16 +311,16 @@ li.dropdown {
     text-align: justify;
 }
 
-.articulo-3 div{
+.articulo-3 div {
 
-    margin-top:10px ;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
- 
-.articulo-3 .pregunta{
+
+.articulo-3 .pregunta {
 
     font-style: italic;
-    
+
 }
 
 /* Redes sociales PARA TODAS LAS PAGINAS!! */
@@ -300,7 +328,8 @@ li.dropdown {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; /* alineacion del texto*/
+    align-items: center;
+    /* alineacion del texto*/
     border: solid 4px white;
     font-weight: bold;
     font-size: 30px;
@@ -336,13 +365,13 @@ li.dropdown {
 .titulos {
     text-align: center;
     font-size: 40px;
-   /* text-shadow: black;*/
+    /* text-shadow: black;*/
     text-decoration: underline;
-    text-shadow: 8px 8px 10px #0033FF ;
+    text-shadow: 8px 8px 10px #0033FF;
     margin-bottom: 20px;
-    
+
     /*border: 10px solid black;*/
-   
+
 }
 
 .contenedor-descarga img {
@@ -353,11 +382,11 @@ li.dropdown {
     margin-bottom: 20px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 8px 8px 10px white ;
+    box-shadow: 8px 8px 10px white;
     /*border: 3px solid fuchsia;*/
-   
+
 }
- 
+
 
 
 
@@ -488,7 +517,8 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; /*alinea el texto*/
+    align-items: center;
+    /*alinea el texto*/
 }
 
 .home span {
@@ -505,7 +535,7 @@ footer span {
 
 /** PAGINA MI PERSONAJE---------------------------------------------------------------------*/
 
-.personaje{
+.personaje {
 
     width: 400px;
     border-radius: 20px;
@@ -518,23 +548,26 @@ footer span {
 }
 
 
-.titulos-paginas { /* paginas del menu*/
+.titulos-paginas {
+    /* paginas del menu*/
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 30px;
     text-align: left;
     font-size: 40px;
-   /* text-shadow: black;*/
+    /* text-shadow: black;*/
     text-decoration: underline;
-    text-shadow: 8px 8px 10px #0033FF ;
+    text-shadow: 8px 8px 10px #0033FF;
 }
 
-.img-titulo{ /*imagenes titulo principal de las paginas*/
+.img-titulo {
+    /*imagenes titulo principal de las paginas*/
 
     border-radius: 30px;
 }
 
-.img-articulo-1 { /* imagenes centradas con bordes redondos*/
+.img-articulo-1 {
+    /* imagenes centradas con bordes redondos*/
 
     width: 300px;
     border: 10px double #E0E0E0;
@@ -543,11 +576,11 @@ footer span {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 20px;
-   
+
 }
 
 
-.espacio-lineas{
+.espacio-lineas {
 
     line-height: 1.9;
     color: white;
@@ -558,16 +591,16 @@ footer span {
 /** PAGINA POTENCIADORES---------------------------------------------------------------------*/
 
 
-.potenciadores{
+.potenciadores {
 
     width: 100px;
-    display:inline-block;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     /*border: 3px solid black;*/
     margin-left: 30px;
     margin-top: 30px;
-    
+
 }
 
 .potenciadores img {
@@ -575,7 +608,8 @@ footer span {
     border-radius: 100px;
 }
 
-.texto-potenciadores{ /*style para las paginas del menu---?*/
+.texto-potenciadores {
+    /*style para las paginas del menu---?*/
 
     font-size: 20px;
     margin-top: 20px;
@@ -583,57 +617,59 @@ footer span {
     text-align: center;
 }
 
-.potenciadores img{
+.potenciadores img {
     border: 3px solid fuchsia;
     box-shadow: 20px 20px 30px white;
 }
 
-.resaltar{ /*resaltar palabaras espaciales*/
+.resaltar {
+    /*resaltar palabaras espaciales*/
     font-size: 30px;
-    font-weight:900;
+    font-weight: 900;
     color: fuchsia;
     text-shadow: 8px 8px 10px blue;
-   
+
 }
 
-.texto-potenciadores{
+.texto-potenciadores {
 
-    font-size:30px ;
+    font-size: 30px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 /* ENLACES POTENCIADORES*/
 
-.potenciadores .sp{
+.potenciadores .sp {
 
     width: 100px;
-    margin-left: 600px;;
+    margin-left: 600px;
+    ;
 
 }
 
 /*Pagina: MASCOTAS*/
 
 
-.texto-mascotas{
+.texto-mascotas {
 
-    text-align:center;
+    text-align: center;
     font-size: 22px;
     margin-top: 20px;
 }
 
-ol li{
+ol li {
     text-align: left;
-     font-weight: bolder;
+    font-weight: bolder;
 }
 
-.galeria{
+.galeria {
     display: inline-block;
-    justify-content:first baseline;
+    justify-content: first baseline;
     margin-top: 30px;
-  
+
 }
 
-.galeria img{
+.galeria img {
 
     width: 200px;
     border-radius: 10px;
@@ -642,31 +678,20 @@ ol li{
     border: 2px solid fuchsia;
 }
 
-.descripcion{
-  text-align: center;
-  font-family: Calibri;
-  font-weight: bolder;
-  border: 2px solid fuchsia;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-left: 30px;
-  box-shadow: 8px 8px 10px fuchsia;
-  font-size: 20px;
- 
+.descripcion {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bolder;
+    border: 2px solid fuchsia;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 8px 8px 10px fuchsia;
+    font-size: 20px;
+
 }
 
 /*------------------------------------------------------------------------------------------*/
 
 /*PAGINA: GALERIA*/
-
-.contenedor-carrusel {
-    max-width: 750px;
-    display: inline-block;
-    justify-content: center;
-    margin-left:350px; /*verificar en proyecto*/
-    border: 5px solid fuchsia;
-    border-radius: 10px;
-
-
-}
 

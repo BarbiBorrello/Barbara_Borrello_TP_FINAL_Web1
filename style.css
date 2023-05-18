@@ -659,3 +659,14 @@ ol li{
 
 /*PAGINA: GALERIA*/
 
+.contenedor-carrusel {
+    max-width: 750px;
+    display: inline-block;
+    justify-content: center;
+    margin-left:350px; /*verificar en proyecto*/
+    border: 5px solid fuchsia;
+    border-radius: 10px;
+
+
+}
+

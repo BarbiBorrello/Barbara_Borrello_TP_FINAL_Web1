@@ -695,3 +695,102 @@ ol li {
 
 /*PAGINA: GALERIA*/
 
+/* contenedor */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin-left: 300px;
+}
+
+/* Hide the images by default*/
+.mySlides {
+  display:none;
+
+}
+/* Botones siguiente y anterior */
+.prev, .next {
+  cursor:pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight:bolder;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Coloque el "botón siguiente" a la derecha */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Al pasar el mouse, agregua un color de fondo negro con un poco de transparencia */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* texto de los titulos de las fotos */
+.text {
+  color: #f2f2f2;
+  font-size: 40px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: -17px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* Los puntos para deslizar las fotos al pie del contenedor */
+.dot {
+  cursor: pointer; /* MANITO*/
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;  /* punto NO seleccionado*/
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover { /* punto seleccionado*/
+  background-color: #717171;
+}
+
+/* Animación de desvanecimiento */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* efecto de desvanicimiento de las fotos*/
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/**/
+
+.img-galeria{
+
+    width: 100%;
+    border:10px solid fuchsia;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.puntos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+
+}

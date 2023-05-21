@@ -695,22 +695,39 @@ ol li {
 
 /*PAGINA: GALERIA*/
 
-.carrusel-items{
-    display:flex;
-    overflow-x: scroll; /* scroll en eje x*/
+.carrusel-items {
+    display: flex;
+    overflow-x: scroll; /* scroll en eje x* luego de terminar cambiar a hidden/
+    overflow-y: hidden; /* desaparece scroll vertical*/
+    /*border: 5px solid red;*/
+    padding: 50px 0px; /* se agranda la imgagen cuando se para sobre ella*/
+
 }
 
-.carrusel-item{
-min-width: 300px;
-max-width: 300px;
-height: 200px;
-   
+.carrusel-item {
+    min-width: 400px;
+    max-width: 400px;
+    height: 300px;
+
 }
 
-.carrusel-item img{
+.carrusel-item img {
 
-width: 100%;
-height: 100%;
-object-fit: cover; /* las imagenes se ajustan al tamaño del contenedor*/
-border: 1px solid black;
+    width: 80%;
+    height: 80%;
+    object-fit: cover; /* las imagenes se ajustan al tamaño del contenedor*/
+    outline: 3px solid fuchsia; /*linea de afuera*/
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px white;
+
+}
+
+.carrusel-item:hover {
+    /*se agranda imagen cuando para*/
+    transform: scale(1.7);
+
+}
+
+.carrusel {
+    margin-top: 20px;
 }

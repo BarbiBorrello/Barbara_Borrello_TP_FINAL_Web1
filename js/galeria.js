@@ -1,28 +1,53 @@
-let slideIndex = 1;
-showSlides(slideIndex);
 
-// Controles siguiente/anterior
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+const carrusel = document.querySelector('.carrusel-items');
+
+let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;   /*SABER CUAL ES EL MAXIMO DEL SCROLL para que vuelva al principio*/
+let intervalo = null;
+let step = 1; /*VELOCIDAD*/
+
+/*FUNCION START*/
+
+function start() {
+  intervalo = setInterval(function () {
+    carrusel.scrollLeft = carrusel.scrollLeft + step;
+    if (carrusel.scrollLeft === carrusel.maxScrollLeft) {
+      step = step * -1;
+    } else if (carrusel.scrollLeft === 0) {
+      step = step * -1;
+
+    }
+  }, 10);
 }
 
-// Controles de imagen en miniatura
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+/*FUNCION STOP*/
+
+const stop = () => {
+  clearInterval(intervalo); /*limpiar intervalo*/
 }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+carrusel.addEventListener('mouseover', () => {
+  stop();
+});
+
+carrusel.addEventListener('mouseout', () => {
+  start();
+});
+
+
+
+
+
+
+
+
+
+
+/*EJECUCION START*/
+
+start();
+
+
+
+/*scrollLeft obtiene o establece el número de píxeles que desplaza el contenido de un elemento hacia la izquierda*/
+/*scrollWidth retorna bien la anchura en pixels del contenido de un elemento o bien la anchura del elemento en si, la que sea mayor de ambas*/
+/*clientWidth/Height :esta propiedad proporciona el tamaño del área dentro de los bordes del elemento*/

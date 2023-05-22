@@ -1,5 +1,5 @@
 
-const carrusel = document.querySelector('.carrusel-items');
+const carrusel = document.querySelector(".carrusel-items");
 
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;   /*SABER CUAL ES EL MAXIMO DEL SCROLL para que vuelva al principio*/
 let intervalo = null;
@@ -7,17 +7,17 @@ let step = 1; /*VELOCIDAD*/
 
 /*FUNCION START*/
 
-function start() {
-  intervalo = setInterval(function () {
-    carrusel.scrollLeft = carrusel.scrollLeft + step;
-    if (carrusel.scrollLeft === carrusel.maxScrollLeft) {
-      step = step * -1;
-    } else if (carrusel.scrollLeft === 0) {
-      step = step * -1;
 
-    }
+const start = () => {
+  intervalo = setInterval ( function (){
+      carrusel.scrollLeft = carrusel.scrollLeft + step;
+      if(carrusel.scrollLeft === maxScrollLeft){
+          step = step * -1;
+      } else if (carrusel.scrollLeft === 0){
+          step = step * -1;
+      }
   }, 10);
-}
+};
 
 /*FUNCION STOP*/
 
@@ -32,14 +32,6 @@ carrusel.addEventListener('mouseover', () => {
 carrusel.addEventListener('mouseout', () => {
   start();
 });
-
-
-
-
-
-
-
-
 
 
 /*EJECUCION START*/

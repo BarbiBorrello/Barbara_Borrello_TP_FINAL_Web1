@@ -697,7 +697,7 @@ ol li {
 
 .carrusel-items {
     display: flex;
-    overflow-x: scroll; /* scroll en eje x* luego de terminar cambiar a hidden/
+    overflow-x: hidden; /* scroll en eje x* luego de terminar cambiar de scroll a hidden/
     overflow-y: hidden; /* desaparece scroll vertical*/
     /*border: 5px solid red;*/
     padding: 50px 0px; /* se agranda la imgagen cuando se para sobre ella*/
@@ -713,8 +713,8 @@ ol li {
 
 .carrusel-item img {
 
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     object-fit: cover; /* las imagenes se ajustan al tamaño del contenedor*/
     outline: 3px solid fuchsia; /*linea de afuera*/
     border-radius: 10px;
@@ -730,4 +730,5 @@ ol li {
 
 .carrusel {
     margin-top: 20px;
+  
 }

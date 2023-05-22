@@ -734,3 +734,18 @@ ol li {
     margin-top: 20px;
   
 }
+
+/*------------------------------------------------------------------------------------------*/
+
+/*PAGINA: CARRUSEL 2*/
+
+.carousel2 {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+#imagen {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}

@@ -697,11 +697,11 @@ ol li {
 
 .carrusel-items {
     display: flex;
-    /*overflow-x: hidden; /* scroll en eje x* luego de terminar cambiar de scroll a hidden/
+    overflow-x: hidden; /* scroll en eje x* luego de terminar cambiar de scroll a hidden/
     overflow-y: hidden; /* desaparece scroll vertical*/
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     padding: 50px 0px; /* se agranda la imgagen cuando se para sobre ella*/
-    border-radius: 10px;
+
     
 
 }

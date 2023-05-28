@@ -6,58 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_FINAL .css">
+    <script defer src="js/contacto.js"></script>
 </head>
 
 <body>
 
+    <div>
+        <div class="titulos"> <img class="img-titulo" src="img/Logo_negro.jpg" alt=""> Contacto<img class="img-titulo"
+                src="img/Logo_negro.jpg" alt=""></div>
+                
+    </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="contacto">
-
-        <div class="contenedor-contacto">
-            <img class="img-contacto" src="img/Contacto.jpg" alt="" />
-            <h1 class="tit-contacto">Contactanos</h1>
+ <!--Seccion Contacto-->
+ <section id="contacto">
+    <div class="contact-container container">
+        <div class="contact-img">
+            <img src="img/Contacto.jpg" alt="Imagen de Personajes"/>
         </div>
 
-    </div>
-
-
-    <div class="contenedor-formulario">
-    <div class="formulario">
-
-        <form>
-
-            <label for="Motivo">Motivo</label>
-            <select id="motivo" name="motivo">
-                <option value="consulta">Consulta</option>
-                <option value="reclamo">Reclamo</option>
-                <option value="sugerencia">Sugerencia</option>
-            </select>
-
-
-            <label for="Nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder=""> 
-
-            <label for="Apellido">Apellido</label>
-            <input type="text" id="apellido" name="apellido" placeholder="">
-
-            <label for="Mail">Mail</label>
-            <input type="text" id="mail" name="mail" placeholder="">
-
-            <textarea></textarea>
-
-            <input type="submit" value="Enviar">
+        <form class="form-container" method="get" action="index.html">
+            <h2> ¡Envíanos un mensaje ahora!</h2>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido"/>
+            <input type="email" name="email" id="email" placeholder="E-Mail"/>
+            <textarea name="mensaje" id="mensaje"
+                      cols="30"
+                      rows="6"
+                      placeholder="Mensaje"
+            ></textarea>
+            <input type="submit" class="btn btn-primary" value="ENVIAR" onclick="return ValidarForm();">
         </form>
     </div>
-    </div>
+</section>
 
+<!--------------------------------------------------------------------------------------------------------------------------------->
 
     <div class="home"> <a class="enlace" href="index.html"><img src="img/Icono_Home.jpg" alt=""> <span>Volver a pagina Principal</span>  </a> 
     <!--<div><a class="enlace" href="contacto.html"><img src="img/Icono_Contactanos.jpg" alt=""><span>Contactanos</span>  </a></div> -->
     
     </div>
-
-
 
     <!-- REDES SOCIALES-->
     <div class="redes-sociales"> Síguenos en las redes sociales
@@ -84,12 +72,6 @@
                 <a href="babiborrello@gmail.com">babiborrello@gmail.com</a>
             </p>
         </footer>
-
-
-
-
-
-
 
     </div>
 

@@ -7,7 +7,7 @@ body {
     font-family: Calibri;
     color: white;
     padding: 0;
-    margin: 0 ;
+    padding-top: 30px; /*agregar el tp final*/
 
 
 }
@@ -399,103 +399,7 @@ li.dropdown {
 
 /*---------------------------------------------------------------------------------------------------------*/
 
-/* Pagina de CONTACTO*/
-
-/* ENCABEZADO*/
-.contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px;
-
-
-}
-
-.contenedor-contacto {
-    position: relative;
-
-}
-
-.img-contacto {
-    border-radius: 100%;
-    box-shadow: 20px 20px 30px white;
-    /*sombra de la imagen*/
-}
-
-.tit-contacto {
-    position: absolute;
-    bottom: 200px;
-    left: 350px;
-    font-family: Calibri;
-    font-size: 60px;
-    color: blue;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
-}
-
-/**/
-/* Pagina de CONTACTO*/
-/* FORMULARIO*/
-
-input[type=text],
-select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    /* display: inline-block;*/
-    border: 4px solid blue;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 20%;
-    /* boton ENVIAR mas pequeño*/
-    background-color: blue;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 200px;
-    /* boton ENVIAR centrado*/
-    font-family: Calibri;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-input[type=submit]:hover {
-
-    background-color: white;
-}
-
-textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 4px solid blue;
-    border-radius: 4px;
-    /*    background-color: #f8f8f8;*/
-    font-size: 16px;
-    /*   resize: none;*/
-}
-
-
-.contenedor-formulario {
-
-    width: 500px;
-    margin-left: 430px;
-    /*CENTRADO*/
-    margin-top: 50px;
-    /*CENTRADO*/
-
-}
-
-.formulario {
-    border: 4px solid #00CCFF;
-    border-radius: 10px;
-    padding: 10px;
-}
+/* Pagina REGISTRATE*/
 
 
 
@@ -699,12 +603,14 @@ ol li {
 
 .carrusel-items {
     display: flex;
-    overflow-x: hidden; /* scroll en eje x* luego de terminar cambiar de scroll a hidden/
+    overflow-x: hidden;
+    /* scroll en eje x* luego de terminar cambiar de scroll a hidden/
     overflow-y: hidden; /* desaparece scroll vertical*/
     /*border: 3px solid blue;*/
-    padding: 50px 0px; /* se agranda la imgagen cuando se para sobre ella*/
+    padding: 50px 0px;
+    /* se agranda la imgagen cuando se para sobre ella*/
 
-    
+
 
 }
 
@@ -719,8 +625,10 @@ ol li {
 
     width: 90%;
     height: 90%;
-    object-fit: cover; /* las imagenes se ajustan al tamaño del contenedor*/
-    outline: 3px solid fuchsia; /*linea de afuera*/
+    object-fit: cover;
+    /* las imagenes se ajustan al tamaño del contenedor*/
+    outline: 3px solid fuchsia;
+    /*linea de afuera*/
     border-radius: 10px;
     box-shadow: 20px 20px 30px white;
 
@@ -734,8 +642,93 @@ ol li {
 
 .carrusel {
     margin-top: 20px;
-  
+
 }
+
+/*------------------------------------------------------------------------------------------*/
+
+/*PAGINA: CLIENTES ESPECIALES*/ 
+
+.carrusel2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagenes {
+    /*CONTENEDOR DE IMAGENES y TEXTO*/
+
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.img {
+    box-shadow: 2px 1px 30px white;
+    width: 700px;
+    border: 6px solid fuchsia;
+    border-radius: 50px;
+    margin: 7px; /*aplica a los iconos*/
+    object-fit: cover; /*ocupa todo el espacio*/
+    filter: saturate(175%); /*imagen mas viva*/
+
+}
+
+.texto{ /*TITULOS*/
+
+    color: #0033FF;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px black;
+
+    /*border: 1px solid violet;*/
+    position: absolute; /*por encima de la imagen*/
+    flex-direction: column;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.imagenes:hover .texto {
+
+    transition: height 1s, transform 1s, background-color 1s;
+}
+
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puntos h3 {
+
+     font-size: 100px;
+     font-weight: 500;
+     margin-top: -50px;
+     color: black;
+}
+
+.puntos .bold { /*puntos seleccionados*/
+
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+} 
+
+#atras ,#adelante{
+
+    width: 50px;
+}  
 
 /*------------------------------------------------------------------------------------------*/
 
@@ -799,6 +792,76 @@ ol li {
 }
 
 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------Pagina: CONTACTANOS-------------------------------------------------------*/
 
+#contacto {
+    position: relative;
+    padding: 5rem 0;
+    /*background: rgb(226, 226, 226)/*/
+   
+}
 
+.contact-container {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    border: 5px solid fuchsia ;
+    box-shadow: 20px 20px 30px white;
+    
+}
+
+.contact-img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.contact-img img {
+    display: block;
+    height:400px ;
+    width:90%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.form-container {
+    padding: 1rem;
+    width: 50%;
+    margin-top: 1%;
+   
+}
+
+.form-container input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+   
+}
+
+.form-container textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    color: #444;
+    outline: none;
+    padding: 1rem 0;
+    resize: none;
+}
+
+.form-container h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+}
 

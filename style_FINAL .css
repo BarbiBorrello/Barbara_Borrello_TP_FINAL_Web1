@@ -636,7 +636,7 @@ ol li {
 
 .carrusel-item:hover {
     /*se agranda imagen cuando para*/
-    transform: scale(1.7);
+    transform: scale(1.3);
 
 }
 

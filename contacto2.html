@@ -22,40 +22,33 @@
 
          <h3>¡Envíanos un mensaje ahora!</h3>
     </div>
-    <!-- FORMULARIO-->
 
-    <div class="formulario">
 
-    <form onsubmit="return validar()" id="contacto">
+ <!-------------------------------------------FORMULARIO INTENTO 542356789! JA------------------------------------------------------>
 
-        <label for="nombre">Nombre</label>
-        <input id="nombre" autofocus />
 
-        <label for="email">Email</label>
-        <input id="email" />
+ <form onsubmit="return validar()" id="f_contacto">
+    <!-- RETORNA: FUNCION VALIDAR-->    
 
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" rows="3"></textarea>
 
+        <label for="f_nombre">Nombre</label>
+        <input id="f_nombre" autofocus />   <!-- FOCO: 1° CAMPO DEL FORMULARIO-->    
+
+        <label for="f_email">Email</label>
+        <input id="f_email" />
+
+        <label for="f_mensaje">Mensaje</label>
+        <textarea id="f_mensaje" rows="3"></textarea> <!-- OCUPA 3 FILAS-->
+
+        <button type="submit">Enviar</button>
         
-   
-        <input id="confirmar" type=button onclick="pregunta()" value="confirmar">
-
-
-        <button class="enviar" type="submit">ENVIAR</button>
-
-
-
-        <div id="errores"> </div> 
-    
+        
+        <div id="errores"></div> 
     
     </form>
 
-    </div>
   
-      <div id="mensajes">
-      </div>
-
+      <div id="mensajes"> </div> <!-- CARGA DE DATOS CORRECTA /POR FUERA DEL FORMULARIO-->
 
 
  <!-------------------------------------------------------------------------------------------------------------------------->

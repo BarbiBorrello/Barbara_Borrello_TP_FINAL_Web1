@@ -903,7 +903,7 @@ ol li {
 /*--------------FORMULARIO-------------------------------------------------*/
 
 form {
-    display: block;
+    display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 30px;
